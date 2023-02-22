@@ -17,9 +17,9 @@ Section*/
     flex-direction: column;
     color: white;
     margin: 0;
-    flex-grow: 1;
     justify-content: space-around;
     gap: 100px;
+    padding: 10px;
 }
 
 
@@ -52,7 +52,7 @@ Section*/
     justify-content: center;
 }
 
-img{
+.firstsection img{
     width: 500px;
     height: auto;
     align-self: center;
@@ -96,6 +96,49 @@ button{
 /*Second
 -------- 
 Section*/
+
+.secondsection{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.showcase{
+    align-self: center;
+    display: flex;
+}
+
+.avenger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    gap: 10px;
+}
+
+.secondsection .text{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.secondsection img{
+    width: 150px;
+    height: auto;
+    border: #3882f6 solid;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.testicles{
+    width: 150px;
+}
 
 
 /*Third
