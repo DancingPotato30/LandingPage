@@ -17,8 +17,7 @@ Section*/
     flex-direction: column;
     color: white;
     margin: 0;
-    justify-content: space-around;
-    gap: 100px;
+    gap: 90px;
     padding: 10px;
 }
 
@@ -26,7 +25,7 @@ Section*/
 /*Header*/
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 8px;
 }
 
@@ -50,6 +49,7 @@ Section*/
 .mainheader{
     display: flex;
     justify-content: center;
+    margin: 70px;
 }
 
 .firstsection img{
@@ -65,7 +65,7 @@ Section*/
     width: 500px;
 }
 
-button{
+.mainheader button{
     width: 100px;
     background-color: #3882f6;
     color: white;
@@ -171,12 +171,42 @@ Section*/
 }
 
 
-
-
 /*Fourth
 -------- 
 Section*/
+.fourthsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: white;
+}
 
+.action{
+    background-color: #3882f6;
+    margin: 150px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 900px;
+}
+
+.top{
+    font-size: 24px;
+}
+
+.fourthsection .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthsection button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: white solid;
+    font-size: 20px;
+}
 
 
 /*Footer*/
